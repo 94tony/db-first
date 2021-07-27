@@ -1,0 +1,12 @@
+col                         type                            attributes           INDEX
+marca                       VARCHAR(15)                     NOTNULL              PRIMARY KEY
+modello                     VARCHAR(20)                     NOTNULL UNIQUE       index
+cilindrata                  SMALLINT UNSIGNED               NOTNULL
+immatricolazione            DATE                            NOTNULL
+ruote                       TINYINT                         NOTNULL
+peso                        SMALLINT                        NOTNULL
+cambio                      VARCHAR(10)                     NOTNULL
+posti                       TINYINT                         NOTNULL
+optional                    VARCHA(255)                     NULL
+stato                       VARCHAR(50)                     NOTNULL
+KM PERCORSI                MEDIUMINT UNSIGNED               index
