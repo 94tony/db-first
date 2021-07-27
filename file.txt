@@ -9,4 +9,5 @@ cambio                      VARCHAR(10)                     NOTNULL
 posti                       TINYINT                         NOTNULL
 optional                    VARCHA(255)                     NULL
 stato                       VARCHAR(50)                     NOTNULL
-KM PERCORSI                MEDIUMINT UNSIGNED               index
+KM PERCORSI                MEDIUMINT UNSIGNED                                    index
+prezzo                      decimal (7,2)                   NOTNULL              index
